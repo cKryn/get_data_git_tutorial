@@ -1,5 +1,8 @@
 """Get person data"""
+
+
 import pandas as pd
+
 
 DATA = {
     111: {
@@ -19,12 +22,10 @@ def get_name_and_age(person_id):
     return DATA[person_id]
 
 
-
 def save_data(file, person_data):
     """Save person data to file"""
     with open(file, "w") as fw:
         fw.write(person_data)
-
 
 
 def read_data(file):
