@@ -17,4 +17,4 @@ y = 20
 print(x+y)
 ```
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](./picture/medium.webp)
+![Just a cat photo.](./picture/medium.webp)
